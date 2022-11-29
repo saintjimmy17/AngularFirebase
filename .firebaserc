@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "empleados-7ee81": {
+      "hosting": {
+        "empleados": [
+          "empleados-7ee81"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "empleados-7ee81"
+  }
+}

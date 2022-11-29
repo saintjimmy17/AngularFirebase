@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,6 +98,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "empleados:build:production",
+            "firebaseProject": "empleados-7ee81",
+            "firebaseHostingSite": "empleados-7ee81"
           }
         }
       }
